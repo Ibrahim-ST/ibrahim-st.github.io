@@ -193,7 +193,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding-right: 15rem;
 }
 .header-content .right-header .name {
   font-size: 3rem;
@@ -525,6 +525,10 @@ section {
   padding-bottom: 1rem;
 }
 
+.contact-resume{
+  display: flex;
+  gap: 10px;
+}
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
@@ -700,6 +704,13 @@ section {
     padding: 0 !important;
   }
 
+  .contact-resume{
+    flex-direction: column;
+  }
+  .btn-con{
+    align-self: unset;
+    justify-content: center;
+  }
   .theme-btn {
     width: 50px;
     height: 50px;
@@ -874,6 +885,13 @@ section {
   }
 }
 @media screen and (max-width: 660px) {
+  .contact-resume{
+    flex-direction: column;
+  }
+  .btn-con{
+    align-self: unset;
+    justify-content: center;
+  }
   .blogs {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -901,6 +919,9 @@ section {
   }
 }
 @media screen and (max-width: 970px) {
+  .contact-resume{
+    justify-content: center;
+  }
   .container {
     padding: 7rem 6rem;
   }
@@ -935,6 +956,10 @@ section {
   }
 }
 @media screen and (max-width: 700px) {
+  
+  .contact-resume{
+    justify-content: center;
+  }
   .container {
     padding: 7rem 3rem;
   }
