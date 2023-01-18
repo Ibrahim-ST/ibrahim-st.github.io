@@ -622,7 +622,10 @@ section {
   display: flex;
   justify-content: flex-start;
 }
-
+.contact-buttons{
+  display: flex;
+  justify-content: space-between;
+}
 /*Independed components*/
 .btn-con {
   display: flex;
